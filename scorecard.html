@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" href="bootstrap.min.css" />
     <script src="jquery.min.js"></script>
     <script src="scorecard.js"></script>
@@ -26,21 +25,21 @@
             </thead>
             <tbody>
                 <tr>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="1" id="end" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="1" id="end" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away" /> </td>
                 </tr>
                 <tr>
-                    <td class="text-center">
+                    <td>
                         <button onclick="home1()" type="button" class="btn btn-primary">+1</button>
                         <button onclick="home2()" type="button" class="btn btn-primary">+2</button>
                         <button onclick="home3()" type="button" class="btn btn-primary">+3</button>
                         <button onclick="home4()" type="button" class="btn btn-primary">+4</button>
                     </td>
-                    <td class="text-center">
+                    <td>
                         <button onclick="voidEnd()" type="button" class="btn btn-warning">Void end</button>
                     </td>
-                    <td class="text-center">
+                    <td>
                         <button onclick="away1()" type="button" class="btn btn-secondary">+1</button>
                         <button onclick="away2()" type="button" class="btn btn-secondary">+2</button>
                         <button onclick="away3()" type="button" class="btn btn-secondary">+3</button>
@@ -62,159 +61,159 @@
             </thead>
             <tbody>
                 <tr id="end1">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home1" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="1" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away1" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home1" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="1" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away1" /> </td>
                 </tr>
                 <tr id="end2">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home2" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="2" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away2" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home2" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="2" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away2" /> </td>
                 </tr>
                 <tr id="end3">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home3" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="3" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away3" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home3" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="3" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away3" /> </td>
                 </tr>
                 <tr id="end4">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home4" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="4" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away4" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home4" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="4" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away4" /> </td>
                 </tr>
                 <tr id="end5">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home5" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="5" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away5" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home5" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="5" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away5" /> </td>
                 </tr>
                 <tr id="end6">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home6" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="6" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away6" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home6" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="6" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away6" /> </td>
                 </tr>
                 <tr id="end7">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home7" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="7" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away7" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home7" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="7" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away7" /> </td>
                 </tr>
                 <tr id="end8">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home8" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="8" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away8" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home8" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="8" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away8" /> </td>
                 </tr>
                 <tr id="end9">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home9" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="9" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away9" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home9" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="9" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away9" /> </td>
                 </tr>
                 <tr id="end10">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home10" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="10" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away10" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home10" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="10" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away10" /> </td>
                 </tr>
                 <tr id="end11">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home11" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="11" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away11" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home11" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="11" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away11" /> </td>
                 </tr>
                 <tr id="end12">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home12" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="12" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away12" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home12" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="12" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away12" /> </td>
                 </tr>
                 <tr id="end13">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home13" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="13" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away13" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home13" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="13" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away13" /> </td>
                 </tr>
                 <tr id="end14">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home14" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="14" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away14" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home14" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="14" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away14" /> </td>
                 </tr>
                 <tr id="end15">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home15" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="15" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away15" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home15" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="15" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away15" /> </td>
                 </tr>
                 <tr id="end16">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home16" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="16" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away16" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home16" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="16" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away16" /> </td>
                 </tr>
                 <tr id="end17">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home17" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="17" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away17" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home17" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="17" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away17" /> </td>
                 </tr>
                 <tr id="end18">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home18" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="18" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away18" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home18" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="18" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away18" /> </td>
                 </tr>
                 <tr id="end19">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home19" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="19" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away19" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home19" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="19" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away19" /> </td>
                 </tr>
                 <tr id="end20">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home20" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="20" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away20" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home20" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="20" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away20" /> </td>
                 </tr>
                 <tr id="end21">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home21" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="21" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away21" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home21" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="21" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away21" /> </td>
                 </tr>
                 <tr id="end22">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home22" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="22" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away22" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home22" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="22" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away22" /> </td>
                 </tr>
                 <tr id="end23">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home23" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="23" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away23" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home23" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="23" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away23" /> </td>
                 </tr>
                 <tr id="end24">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home24" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="24" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away24" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home24" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="24" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away24" /> </td>
                 </tr>
                 <tr id="end25">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home25" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="25" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away25" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home25" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="25" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away25" /> </td>
                 </tr>
                 <tr id="end26">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home26" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="26" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away26" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home26" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="26" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away26" /> </td>
                 </tr>
                 <tr id="end27">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home27" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="27" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away27" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home27" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="27" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away27" /> </td>
                 </tr>
                 <tr id="end28">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home28" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="28" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away28" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home28" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="28" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away28" /> </td>
                 </tr>
                 <tr id="end29">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home29" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="29" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away29" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home29" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="29" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away29" /> </td>
                 </tr>
                 <tr id="end30">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home30" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="30" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away30" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home30" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="30" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away30" /> </td>
                 </tr>
                 <tr id="end31">
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="home31" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="31" /> </td>
-                    <td> <input type="number" readonly class="text-center form-control-plaintext" value="0" id="away31" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="home31" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="31" /> </td>
+                    <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away31" /> </td>
                 </tr>
             </tbody>
         </table>
