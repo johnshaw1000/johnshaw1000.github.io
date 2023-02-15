@@ -14,7 +14,13 @@
     <div class="container">
         <h1>Scorecard</h1>
         <div class="alert alert-warning" role="alert">
-            This is an experimental tool! Please use carefully and just for fun, it will not save any results anywhere.
+            This is an experimental tool! Please use at your own risk, it will not save any results anywhere.
+        </div>
+        <div class="alert alert-success" id="homeWin" role="alert">
+            Home team wins!
+        </div>
+        <div class="alert alert-success" id="awayWin" role="alert">
+            Away team wins!
         </div>
         <h2>Current End</h2>
         <table class="table">
@@ -31,7 +37,7 @@
                     <td> <input type="number" readonly class="form-control-plaintext" value="1" id="end" /> </td>
                     <td> <input type="number" readonly class="form-control-plaintext" value="0" id="away" /> </td>
                 </tr>
-                <tr>
+                <tr id="buttons">
                     <td>
                         <button onclick="home1()" type="button" class="btn btn-primary">+1</button>
                         <button onclick="home2()" type="button" class="btn btn-primary">+2</button>
