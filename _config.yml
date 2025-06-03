@@ -1,3 +1,5 @@
 remote_theme: pages-themes/dinky@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Hanbury and Draycott Bowls Club
+description: Website for the Hanbury and Draycott Bowls Club, based in the village of Hanbury, Staffordshire, UK.
