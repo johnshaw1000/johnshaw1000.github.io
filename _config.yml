@@ -14,15 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hanbury & Draycott Bowls Club
-email: john@shaw.org.uk
+email: admin@hanburyanddraycottbc.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Hanbury & Draycott Bowls Club is a Crown Green bowls club in the village of Hanbury, Staffordshire, England 
   and also represents the nearby village of Draycott-in-the-Clay.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+facebook_username: groups/461068325780844
+facebook_display: facebook
 # Build settings
 markdown: kramdown
 theme: minima
