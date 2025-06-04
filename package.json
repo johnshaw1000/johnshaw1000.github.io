@@ -1,0 +1,24 @@
+{
+  "name": "johnshaw1000.github.io",
+  "version": "1.0.0",
+  "description": "This is the source code for the bowls club home page, with hosting by GitHub.",
+  "main": "bowlsScorecard.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "build.server": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.13",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
